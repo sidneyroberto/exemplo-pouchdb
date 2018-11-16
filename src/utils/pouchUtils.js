@@ -7,6 +7,6 @@ db.createIndex({
     index: { fields: ['nome'] }
 });
 
-export const URL_COUCH_DB = 'https://478d7966-69ed-42ad-aedc-4f5ce52c1f86-bluemix.cloudant.com/agenda-prod';
+export const URL_COUCH_DB = 'COLOQUE_AQUI_A_URL_DO_SEU_BANCO_DE_DADOS';
 
 export default db;
