@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Poppins');
+:root {
+  --cor-barra: #65c6bb;
+  --cor-botao: #049372;
+  --cor-titulo: #019875;
+  --fonte-decorativa: 'Pacifico', cursive;
+  --fonte-conteudo: 'Poppins', sans-serif;
+  --cor-hover: #c8f7c5;
+  --cor-sombra: #def4dc;
+  --cor-borda: rgba(211, 211, 211, 0.2);
+  --cor-alerta: red;
+}
+
+table {
+  text-align: center;
+}
+
+thead td {
+  font-weight: bold;
+  color: var(--cor-titulo);
+}
+
+a {
+  color: var(--cor-botao);
+}
+
+h3 {
+  color: var(--cor-titulo);
+}
+
+.banner {
+  padding: 30px 0px 10px 0px;
+  background-color: var(--cor-barra);
+  color: white;
+  text-align: center;
+  font-family: var(--fonte-decorativa);
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+.banner h1 {
+  text-shadow: 3px 3px 0px var(--cor-titulo);
+}
+
+.conteudo {
+  padding: 10px;
+  margin-bottom: 50px;
+  font-family: var(--fonte-conteudo);
+}
+
+.rodape {
+  padding: 10px;
+  background-color: var(--cor-barra);
+  bottom: 0;
+  position: fixed;
+  color: white;
+  width: 100%;
+}
+
+.rodape a {
+  margin: 10px;
+  padding: 5px;
+  font-size: 170%;
+  display: inline;
+  color: white;
+}
+
+.botaoCadastro {
+  background-color: var(--cor-botao);
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: var(--cor-botao);
+}
+
+.mensagem {
+  color: white;
+  font-weight: bold;
+}
+
+.mensagemListaVazia {
+  color: var(--cor-titulo);
+  text-align: center;
+  font-weight: bold;
+}
+
+.painelContato {
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 2px 2px 0px var(--cor-sombra);
+  border: 1px solid var(--cor-borda);
+}
+
+.inicialContato {
+  background-color: var(--cor-barra);
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 17px 0px 10px 0px;
+  font-size: 150%;
+  float: left;
+  margin-right: 10px;
+}
+
+.painelOpcoes {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.painelOpcoes button {
+  color: var(--cor-alerta);
+}
+
+.painelOpcoes * {
+  margin-right: 10px;
+}
+
+.dadosContato {
+  padding-top: 10px;
+  height: 100%;
+}
+
+.dadosContato p:nth-child(1) {
+  margin: 0px;
+  font-size: 110%;
+}
+
+.dadosContato p:nth-child(2) {
+  font-size: 80%;
+}
