@@ -10,7 +10,7 @@ $ npm i
 ```console
 $ npm start
 ```
-* Para habilitar a sincronização com o seu banco de dados no CouchDB disponível em algum serviço de nuvem (por exemplo, o [IBM Cloudant](https://console.bluemix.net/catalog/services/cloudant)), altere o valor da constante URL_COUCH_DB do arquivo src/utils/pouchUtils.js:
+* Para habilitar a sincronização com o seu banco de dados no CouchDB disponível em algum serviço de nuvem (por exemplo, o [IBM Cloudant](https://console.bluemix.net/catalog/services/cloudant)), altere o valor da constante **URL_COUCH_DB** do arquivo *src/utils/pouchUtils.js*:
 ```javascript
 import PouchDB from 'pouchdb';
 import PouchdbFind from 'pouchdb-find';
